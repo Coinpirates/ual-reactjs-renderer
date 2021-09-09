@@ -364,7 +364,7 @@ export class UALProvider extends Component {
   }
 
   render() {
-    const modal = this.state.modal && <div style={modalStyles}><UALBox /></div>
+    const modal = this.state.modal && <div style={modalStyles} id="ual-container"><UALBox /></div>
     return (
       <UALContext.Provider value={this.state}>
         <style>{baseFont}</style>
