@@ -16,7 +16,7 @@ import {
  * @desc Component that renders a loading icon
  */
 export const UALLoadingIcon = ({ withContainer }) => (
-  <div style={withContainer ? loadingIconWithContainer : loadingIcon}>
+  <div style={withContainer ? loadingIconWithContainer : loadingIcon} className="ual-loading-icon">
     <div style={loadingElementOne} />
     <div style={loadingElementTwo} />
     <div style={loadingElementThree} />

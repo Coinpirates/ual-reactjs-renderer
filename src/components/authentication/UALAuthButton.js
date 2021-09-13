@@ -193,6 +193,7 @@ export class UALAuthButton extends Component {
         onMouseLeave={this.activateGenericSize}
         data-tip={errorTooltip}
         data-effect='solid'
+        className="auth-wallet-item"
       >
         {toolTip}
         <div style={authIconWrapper}><img style={authIcon} src={icon} alt='' /></div>

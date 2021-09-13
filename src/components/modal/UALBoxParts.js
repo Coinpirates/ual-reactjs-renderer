@@ -121,7 +121,7 @@ export class UALBoxParts {
     const goBackAction = error ? logout : goBackToAuthSelect
     if ((error || showAccountInput || showInstallScreen) && !loading) {
       return (
-        <p style={backButtonWrapper}>
+        <p style={backButtonWrapper} className="ual-auth-back-btn">
           <span role='button' aria-label='Go Back' tabIndex='-1' style={backButton} onClick={goBackAction}>
             <strong style={backButtonText}>{i18n.t('goBack')}</strong>
           </span>
