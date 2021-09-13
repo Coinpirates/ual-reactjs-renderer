@@ -44,7 +44,7 @@ export class UALLearnMore extends Component {
     const buttonIcon = open ? <IoMdCloseCircleOutline style={learnMoreIcon} />
       : <IoMdInformationCircleOutline style={learnMoreIcon} />
     return (
-      <div style={base}>
+      <div style={base} className="ual-learn-more-link">
         <div style={{ ...learnMore, ...accordionStyles }}>
           <p style={learnMoreText}>
             {info}

@@ -13,7 +13,7 @@ import { errorMessage } from '../../styles/error'
  * @desc component for rendering error messages
  */
 export const UALErrorMessage = ({ error: { message } }) => (
-  <div style={base}>
+  <div style={base} className="ual-error-message">
     <p style={errorMessage}>
       <IoMdInformationCircleOutline />
       {' '}
